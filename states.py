@@ -27,8 +27,8 @@ class MainMenu:
         self.backgroundImage = pygame.image.load("images/background.jpg")
         self.buttons = [sprites.Button(850, 100), sprites.Button(850, 250),
                         sprites.Button(850, 400), sprites.Button(850, 550)]
-        self.labels = [texts.Text("PLAY!", 860, 100, 80), texts.Text("How To Play!", 860, 275, 40),
-                       texts.Text("High Scores!", 860, 425, 40), texts.Text("Quit!", 860, 550, 80)]
+        self.labels = [texts.Text("PLAY!", 890, 130, 80), texts.Text("How To Play!", 890, 285, 40),
+                       texts.Text("High Scores!", 890, 435, 40), texts.Text("Quit!", 900, 575, 80)]
 
     def handleEvents(self):
 
@@ -242,7 +242,7 @@ class Instructions:
                                 pygame.image.load("images/points.jpg"), pygame.image.load("images/info.jpg")]
         self.nextImage = 0
         self.buttons = [sprites.Button(10, 10), sprites.Button(1020, 610)]
-        self.buttonText = [texts.Text("Main Menu", 20, 35, 45), texts.Text("Next", 1090, 625, 60)]
+        self.buttonText = [texts.Text("Main Menu", 50, 45, 45), texts.Text("Next", 1090, 625, 60)]
 
     def handleEvents(self):
 
@@ -293,7 +293,7 @@ class HighScores:
         self.backgroundImage = pygame.image.load("images/gameplayBackground.jpg")
         self.backButton = sprites.Button(10, 10)
         self.file = scorefile.HighscoreFile()
-        self.labels = [texts.Text("Main Menu", 20, 35, 45), texts.Text("High Scores", 450, 35, 80)]
+        self.labels = [texts.Text("Main Menu", 50, 45, 45), texts.Text("High Scores", 450, 35, 80)]
 
     def handleEvents(self):
 
