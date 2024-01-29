@@ -1,6 +1,6 @@
 # Galaxy Hunters
 
-Welcome to Galaxy Hunter! This Python project is an exciting shooter game inspired by classics like Duck Hunt, set in the vast expanse of space. Get ready to embark on an adventure to defend the galaxy against incoming threats!
+Welcome to Galaxy Hunters! This Python project is an exciting shooter game inspired by classics like Duck Hunt, set in the vast expanse of space. Get ready to embark on an adventure to defend the galaxy against incoming threats!
 
 ## Prerequisites
 
